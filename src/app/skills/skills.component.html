@@ -1,50 +1,28 @@
+<section class="skills mb-5 pb-5">
+  <div class="container text-center mt-5">
+    <div class="row pt-5">
+      <h2>Skills</h2>
+      <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam repellat, beatae quis quidem
+        error cupiditate maxime laborum quo esse dolorem vitae, eveniet reprehenderit magnam earum! Alias, nesciunt.
+        Possimus, corporis! Id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque, culpa nam
+        adipisci, incidunt accusantium, doloremque libero labore corrupti temporibus officia magnam nisi reiciendis
+        dolore aut qui iusto blanditiis quibusdam?</p>
+      <div class="col-lg-5 mt-5">
+        <h3>MY FOCUS</h3>
+        <p>UI/UX Design</p>
+        <p>Responsive Design</p>
+        <p>Web Design</p>
+      </div>
 
+      <div class="col-lg-7 mt-2">
 
+<div *ngFor="let x of Arr">
+  <app-skill [skill]="x.skill"[value]= "x.value"></app-skill>
+<br>
 
-
-<div class="container text-white bg-dark ">
-
-
-    <div class="row  justify-content-center text-center ">
-
-<div class="col-11">
-    <div>
-        <h2>SKILLS</h2>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, corrupti! Aspernatur laudantium nihil minima ullam dolores nam autem odio culpa quasi deleniti, vel ex ducimus impedit omnis! Nisi velit eius soluta minima nostrum dolores. Porro fugit reprehenderit eligendi amet alias!</P>
-    </div>
 </div>
-<div class="col-2">
-    <div>
-        <h3>MY FOUCUS</h3>
-        <hr>
-<h5>UI/UX Design</h5>
-<h5>Responsive Design </h5>
-<h5>Web Design</h5>
-<h5>Mobile App Design</h5>
-
+      </div>
     </div>
-</div>
 
-<div class="col-7 p-5">
-    <div  class="d-flex flex-column">
-        <div class="progress mb-4">
-            <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">js</div>
-          </div>
-          <div class="progress mb-4">
-            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">css</div>
-          </div>
-          <div class="progress mb-4">
-            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">oop</div>
-          </div>
-          <div class="progress mb-4">
-            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">c++</div>
-          </div>
-          <div class="progress mb-4">
-            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">html</div>
-          </div>
-
-    </div>
-</div>
-
-    </div>
-</div>
+  </div>
+</section>

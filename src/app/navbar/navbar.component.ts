@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+     import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   imgsrc:string='https://guardian.ng/wp-content/uploads/2019/11/hurting-woman.jpg';
-  name:string='fatma alzahra'
-  skill:string='full stack developer'
+  name:string="fatma alzahraa"
+  skill:string='full stack developer using php'
 
 }
